@@ -221,7 +221,7 @@ a:focus:not(:focus-visible) {
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) rotate(-1deg);
 }
 
 .logo svg {

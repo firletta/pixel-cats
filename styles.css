@@ -235,10 +235,18 @@ a:focus:not(:focus-visible) {
 }
 
 
-/* CAT RADIO CHOICES */
-.cat-radio-choices label 
-  {
-    margin-right: 12px;
+/* CAT */
+
+  fieldset {
+    border: 1px solid var(--color-primary);
+    padding: 12px;
+  }
+  fieldset label {
+    margin-right: 8px;
+  }
+
+  legend {
+    font-weight: bold;
   }
 
 
